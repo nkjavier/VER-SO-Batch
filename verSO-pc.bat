@@ -1,7 +1,7 @@
 @echo off
 echo.
 cls
-echo Opcion 1
+echo Opcion 1 -
 echo.
 wmic os get caption
 wmic os get osarchitecture
