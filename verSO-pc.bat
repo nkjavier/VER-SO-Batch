@@ -22,3 +22,5 @@ ver | find /i "6" >NUL  2>NUL
 if %errorlevel% equ 0 echo Posee windows 7
 ver | find /i "10" >NUL  2>NUL
 if %errorlevel% equ 0 echo Posee windows 10
+echo.
+echo Terminado!
