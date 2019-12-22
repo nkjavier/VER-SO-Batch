@@ -2,6 +2,7 @@
 echo.
 cls
 echo Opcion 1
+echo.
 wmic os get caption
 wmic os get osarchitecture
 rem otra opcion
