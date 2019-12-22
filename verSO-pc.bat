@@ -1,6 +1,7 @@
 @echo off
 echo.
 cls
+echo Opcion 1
 wmic os get caption
 wmic os get osarchitecture
 rem otra opcion
@@ -10,7 +11,7 @@ pause
 rem otra opcion
 rem Reg query "\\%lista%\HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /v ProductName | find /i "REG_SZ"
 cls
-echo Otra Opcion
+echo Opcion 2
 echo.
 echo.
 echo.
